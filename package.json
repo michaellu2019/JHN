@@ -1,0 +1,41 @@
+{
+  "name": "neves-website",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://jhn2019.github.com/mywebsite",
+  "dependencies": {
+    "netlify-cli": "^2.25.0",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "^3.3.0",
+    "react-spring": "^8.0.27",
+    "react-visibility-sensor": "^5.1.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "gh-pages": "^2.1.1"
+  }
+}
